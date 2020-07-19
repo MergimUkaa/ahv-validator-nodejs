@@ -8,9 +8,14 @@ Via npm
 $ npm install @mergimuka/ahv-validator
 ```
 
-## Usage
+## Usage nodejs
 ```bash
-const check = require('@mergimuka/ahv-validator');
+const check = require('@mergimuka/ahv-validator').default;
+const result = check('756.9217.0769.85')
+```
+## Usage typescript
+```bash
+import check from '@mergimuka/ahv-validator';
 const result = check('756.9217.0769.85')
 ```
 
