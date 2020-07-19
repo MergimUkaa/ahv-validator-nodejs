@@ -1,6 +1,6 @@
 {
-  "name": "@mergimuka/ssn-validator",
-  "version": "1.0.1",
+  "name": "@mergimuka/ahv-validator",
+  "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
