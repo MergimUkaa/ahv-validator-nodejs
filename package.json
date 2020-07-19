@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del .build/*",
     "build": "npm run clean && tsc",
-    "test": "mocha ./src/test/**/ahv.test.js"
+    "test": "mocha ./test/**/ahv.test.js"
   },
   "keywords": ["swiss ahv", "swiss ssn", "ahv validaor", "ahv checker"],
   "author": "",

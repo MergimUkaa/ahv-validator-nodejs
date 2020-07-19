@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { default: check } = require('../../../build/AHV/check-ahv');
+const { default: check } = require('../../build/AHV/check-ahv');
 
 
 describe('Test AHV function', () => {

@@ -5,7 +5,7 @@ interface ResponseObject {
 }
 
 /**
- * 
+ * ahv checker and validator
  * @param ahv 
  */
 const check = (ahv: string) => {
@@ -57,6 +57,10 @@ const check = (ahv: string) => {
         })
 }
 
+/**
+ * response function
+ * @param ResponseObject
+ */
 const response = ({valid, length, description} : ResponseObject) => {
     const response: ResponseObject = {
         valid,
