@@ -1,0 +1,25 @@
+{
+  "name": "@mergimuka/ssn-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del .build/*",
+    "build": "npm run clean && tsc",
+    "test": "mocha ./src/test/**/ahv.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
